@@ -1,0 +1,98 @@
+#sunshine-dialog .dui-dialog-content{
+    padding: 0;
+}
+#sunshine-dialog .dui-dialog-hd span {
+    margin:0 0 0 5px;
+    opacity: 0.7;
+    color:#fff;
+    font-size:10px;
+}
+#sunshine-dialog .dui-dialog-hd span a{
+	color: #00a;
+  font-weight: 400;
+}
+#sunshine-dialog .dui-dialog-bd a{
+	display: block;
+    cursor: pointer;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+#sunshine-dialog .dui-dialog-bd h4{
+  display: block;
+  padding: 10px 0 0 0;
+	font-weight: bold;
+}
+#sunshine-dialog .dui-dialog-bd ul.rule{
+	background-color: #eee;
+  border-radius: 2px;
+  padding: 0 0 0 8px;
+}
+#sunshine-dialog .dui-dialog-bd ul.rule li{
+	background:url(http://img3.douban.com/gondor/pics/assets/price_icon.png) 0 5px no-repeat;
+	line-height: 25px;
+  margin: 0px;
+  padding: 0 0 0px 20px;
+  color: #333;
+  text-shadow: 0 0 1px #fff;
+}
+#sunshine-dialog .dui-dialog-bd p{
+	padding: 5px 0 0 0;
+  font-weight: bold;
+  color: #33a;
+}
+#sunshine-dialog .dialog-fb{
+	background-color: #C36565;
+  opacity: 0.7;
+  width: 100%; height: 30px;
+  margin-top: 10px; padding-top: 8px;
+  text-align: center;
+  font-size: 11px;
+}
+#sunshine-dialog .dialog-fb a{
+	color: #11f;
+  font-size: 11px;
+  font-weight: 600;
+}
+.button, .button:visited {
+    background: #222 url(overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer
+}
+ 
+.button:hover							{ background-color: #111; color: #fff; }
+.button:active							{ top: 1px; }
+.small.button, .small.button:visited 			{ font-size: 11px}
+.button, .button:visited,
+.medium.button, .medium.button:visited 		{ font-size: 13px; 
+											  font-weight: bold; 
+											  line-height: 1; 
+											  text-shadow: 0 -1px 1px rgba(0,0,0,0.25); 
+											  }
+											  
+.large.button, .large.button:visited 			{ font-size: 14px; 
+												  padding: 8px 14px 9px; }
+												  
+.super.button, .super.button:visited 			{ font-size: 34px; 
+												  padding: 8px 14px 9px; }
+.pink.button, .magenta.button:visited		{ background-color: #e22092; }
+.pink.button:hover							{ background-color: #c81e82; }
+.green.button, .green.button:visited		{ background-color: #91bd09; }
+.green.button:hover						    { background-color: #749a02; }
+.red.button, .red.button:visited			{ background-color: #e62727; }
+.red.button:hover							{ background-color: #cf2525; }
+.orange.button, .orange.button:visited		{ background-color: #ff5c00; }
+.orange.button:hover						{ background-color: #d45500; }
+.blue.button, .blue.button:visited		    { background-color: #2981e4; }
+.blue.button:hover							{ background-color: #2575cf; }
+.yellow.button, .yellow.button:visited		{ background-color: #ffb515; }
+.yellow.button:hover						{ background-color: #fc9200; }
