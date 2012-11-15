@@ -31,7 +31,6 @@ app.configure('development', function(){
 });
 app.get('/', routes.index);
 app.get('/users', user.list);
-//app.get('/user/tractAyuan/:toId', user.tractAyuan);
 app.get('/choujiang', chj.index);
 app.get('/choujiang/do', chj.oder);
 app.get('/choujiang/go', chj.go);
